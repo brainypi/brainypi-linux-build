@@ -207,8 +207,8 @@ git submodule update --init --recursive
 ## 7. Flashing Ubuntu image to BrainyPi
 
 1.  See the Flashing guides to flash ubuntu on BrainyPi
-    1.  [Flash to Internal Storage (EMMC)]()
-    1.  [Flash to SDcard]()
+    1.  [Flash to Internal Storage (EMMC)](./Flashing_on_EMMC.md)
+    1.  [Flash to SDcard](./Flashing_on_SDcard.md)
 
 ## 8. Need Help?
 
