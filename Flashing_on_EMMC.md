@@ -19,7 +19,7 @@
 
 1. USB to TTL Serial Cable **_(Optional)_**
  
-   <img src="images/image7.jpg" width="100" height="100">
+   <img src="images/image7.jpg" width="300" height="300">
 
 ## **2. Installing Tools and Drivers**
 
