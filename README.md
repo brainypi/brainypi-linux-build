@@ -9,14 +9,14 @@ Ubuntu compilation steps for BrainyPi.
 
 ## 2. Overview of steps
 
-1.  [Prepare system for building Linux]() 
-1.  [Download source code]()
-1.  [Compile Uboot, Kernel and Ubuntu]()
-    1.  [Compile Uboot]() 
-    1.  [Compile Kernel]()
-    1.  [Build Ubuntu]()
-1.  [Generate Ubuntu image]()
-1.  [Flashing Ubuntu image to BrainyPi]()
+1.  [Prepare system for building Linux](#3-prepare-system-for-building-linux) 
+1.  [Download source code](#4-download-source-code)
+1.  [Compile Uboot, Kernel and Ubuntu](#5-compile-uboot-kernel-and-ubuntu)
+    1.  [Compile Uboot](#5i-compile-uboot) 
+    1.  [Compile Kernel](#5ii-compile-kernel)
+    1.  [Build Ubuntu](#5iii-build-ubuntu)
+1.  [Generate Ubuntu image](#6-generate-ubuntu-image)
+1.  [Flashing Ubuntu image to BrainyPi](#7-flashing-ubuntu-image-to-brainypi)
 
 ## 3. Prepare system for building Linux 
 
