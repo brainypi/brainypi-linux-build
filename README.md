@@ -1,6 +1,14 @@
 # Building Linux (Ubuntu) for BrainyPi 
 
-Ubuntu compilation steps for BrainyPi.
+The guide will help you compile Linux for BrainyPi. Ubuntu provides ready to use base OS to build upon, hence this guide favours Ubuntu. We plan to document builds for other Distros, but this requires help from community. Contributers are welcome!
+
+Linux OS built from this guide are not 
+1. Fully feature rich 
+2. Might be missing key features 
+3. Might have some issues
+4. Some features might not be fully tested. 
+
+Please take a look at [Known Issues]().
 
 ## 1. Requirements
 
@@ -32,6 +40,7 @@ Ubuntu compilation steps for BrainyPi.
 	```sh
 	wget https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/aarch64-linux-gnu/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
 	sudo tar xvf gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz  -C /usr/local/
+	export ARCH=arm64
 	export CROSS_COMPILE=/usr/local/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 	export PATH=/usr/local/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin:$PATH
 	```
@@ -206,3 +215,8 @@ git submodule update --init --recursive
 1.  Need help with Ubuntu compilation, Please report the problem on the forum [Link to forum](https://forum.brainypi.com/c/ubuntu/ubuntu-building/24)
 1.  Facing problems with Ubuntu on BrainyPi, Please report the problem on the forum [Link to forum](https://forum.brainypi.com/c/ubuntu/23)
 
+
+## 9. Known Issues
+1.  Images built without GUI do not boot up to console. This is because of missing TTY config in default kernel configuration (rockchip_linux_defconfig).
+2.  Bluetooth does not work. This is because the bluetooth userspace drivers are missing. 
+3.  Docker does not work. This is because of missing kernel configuration for docker in default kernel configuration (rockchip_linux_defconfig).
