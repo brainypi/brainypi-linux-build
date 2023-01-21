@@ -23,8 +23,8 @@
 ## **2. Installing Tools and Drivers**
 
 1. Download the tools for flashing.
-   1. Tool for flashing - `rkdeveloptool-v1.32.zip` - [Download Link](https://github.com/brainypi/brainypi-android-manifests/raw/master/falshing_tools/rkdeveloptool-v1.32.zip) 
-   2. BrainyPi loader - `rk3399_loader_v1.20.119.bin` - [Download Link](https://github.com/brainypi/brainypi-android-manifests/raw/master/falshing_tools/rk3399_loader_v1.20.119.bin)    
+   1. Tool for flashing - `rkdeveloptool-v1.32.zip` - [Download Link](https://github.com/brainypi/brainypi-android-manifests/raw/master/flashing_tools/rkdeveloptool-v1.32.zip) 
+   2. BrainyPi loader - `rk3399_loader_v1.20.119.bin` - [Download Link](https://github.com/brainypi/brainypi-android-manifests/raw/master/flashing_tools/rk3399_loader_v1.20.119.bin)    
 2. Extract the file rkdeveloptool-v1.32.zip
 3. Navigate to folder rkdeveloptool and Open a new Terminal in the folder. 
 4. Run these commands given below to compile and Install rkdeveloptool 
