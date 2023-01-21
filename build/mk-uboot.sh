@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export ARCH=arm
-export CROSS_COMPILE=arm-linux-gnueabihf-
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-linux-gnu-
 
 LOCALPATH=$(pwd)
 OUT=${LOCALPATH}/out
@@ -34,7 +34,8 @@ echo -e "\e[36m Building U-boot for ${BOARD} board! \e[0m"
 echo -e "\e[36m Using ${UBOOT_DEFCONFIG} \e[0m"
 
 cd ${LOCALPATH}/u-boot
-make ${UBOOT_DEFCONFIG} all
+#make ${UBOOT_DEFCONFIG}
+#make 
 
 if  [ "${CHIP}" == "rk322x" ] || [ "${CHIP}" == "rk3036" ]; then
 	if [ `grep CONFIG_SPL_OF_CONTROL=y ./.config` ] && \
