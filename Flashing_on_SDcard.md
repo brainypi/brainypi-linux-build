@@ -17,3 +17,7 @@
 1.  Click on "Flash!", this will load the microSD card with Linux.
 
     ![alt_txt](images/Etcher_005.png)
+    
+## 4. Boot 
+1.  Insert SDcard in BrainyPi. 
+2.  And the new OS should boot up. 
