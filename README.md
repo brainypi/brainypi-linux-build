@@ -8,7 +8,7 @@ Linux OS built from this guide are not
 3. Might have some issues
 4. Some features might not be fully tested. 
 
-Please take a look at [Known Issues]().
+Please take a look at [Known Issues](#9-known-issues).
 
 ## 1. Requirements
 
