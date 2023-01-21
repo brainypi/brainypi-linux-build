@@ -107,8 +107,8 @@ making_rfs_img() {
 
     echo Rootfs Image: ${ROOTFSIMAGE}
 
-    e2fsck -p -f ${ROOTFSIMAGE}
-    resize2fs -M ${ROOTFSIMAGE}
+    #e2fsck -p -f ${ROOTFSIMAGE}
+    #resize2fs -M ${ROOTFSIMAGE}
 }
 
 generate_boot_image() {
