@@ -7,14 +7,14 @@
 1. Linux Laptop/PC
 1. USB 5V 3A Power Supply 
 
-   <img src="images/image2.jpg" width="100" height="100">
+   <img src="images/image2.jpg" width="300" height="300">
    
 1. USB Type C cable 
-   <img src="images/image3.jpg" width="100" height="100">
+   <img src="images/image3.png" width="300" height="300">
 
 1. USB Male A to Male A cable
 
-   <img src="images/image5.jpg" width="100" height="100">
+   <img src="images/image5.jpg" width="300" height="300">
 
 1. USB to TTL Serial Cable **_(Optional)_**
  
