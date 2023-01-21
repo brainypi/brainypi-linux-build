@@ -165,7 +165,7 @@ git submodule update --init --recursive
 	```sh
 	apt-get install -y sudo ifupdown net-tools ethtool udev wireless-tools iputils-ping resolvconf wget apt-utils wpasupplicant nano network-manager openssh-server
 	```
-1.	Install GUI packages (optional)
+1.	Install GUI packages
 	```sh
 	apt-get install -y ubuntu-desktop
 	```
