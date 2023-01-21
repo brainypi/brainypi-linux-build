@@ -90,7 +90,7 @@ making_rfs_img() {
 
     # Create directories
     mkdir ${MOUNTPOINT}
-    dd if=/dev/zero of=${ROOTFSIMAGE} bs=1M count=0 seek=5000
+    dd if=/dev/zero of=${ROOTFSIMAGE} bs=1M count=0 seek=7000
 
     echo Format rootfs to ext4
     mkfs.ext4 ${ROOTFSIMAGE}
@@ -177,11 +177,11 @@ generate_system_image() {
     fi
 
     if [ "$CHIP" == "rk3328" ] || [ "$CHIP" == "rk3399" ] || [ "$CHIP" == "rk3399pro" ]; then
-        ROOT_UUID="B921B045-1DF0-41C3-AF44-4C6F280D3FAE"
+        ROOT_UUID="614e0000-0000-4b53-8000-1d28000054a9"
     elif [ "$CHIP" == "rk3308" ] || [ "$CHIP" == "px30" ]; then
         ROOT_UUID="614e0000-0000-4b53-8000-1d28000054a9"
     else
-        ROOT_UUID="69DAD710-2CE4-4E3C-B16C-21A1D49ABED3"
+        ROOT_UUID="614e0000-0000-4b53-8000-1d28000054a9"
     fi
 
     if [ "$BOARD" == "brainypi" ]; then
