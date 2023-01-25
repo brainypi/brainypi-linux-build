@@ -85,7 +85,7 @@ git submodule update --init --recursive
 1.  Compile kernel with changes to configuration 
     1.  Load default configuration
         ```sh
-	cd ./kernel
+	cd kernel
         make rockchip_linux_defconfig
         ```
     1.  Make changes to configuration
